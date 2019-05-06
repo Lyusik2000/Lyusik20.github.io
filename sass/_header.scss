@@ -1,0 +1,39 @@
+.header{
+	
+	&__ul{
+		display: flex;
+	}
+	&__li{
+		margin-left: 80px;
+		display: flex;
+		margin-top: 25px;
+	}
+	&__a{
+		font-size: 25px;
+		color: #000;
+		text-decoration: none;
+		margin-top: 10px;
+		
+	}
+	&__a:hover{
+		color: #fff;
+	}
+	
+	&__mrsd{
+		width: 260px;
+		height: 80px;
+		margin: 20px;
+		margin-left: 30px;
+	}
+	&__a1{
+		font-size: 25px;
+		color: #fff;
+		text-decoration: none;
+		margin-top: 10px;
+	}
+	&__a1:hover{
+		color: #000;
+	}
+	background: url(../img/header.png)no-repeat  top / cover;
+
+}

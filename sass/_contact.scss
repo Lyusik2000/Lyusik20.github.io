@@ -1,0 +1,35 @@
+.contact{
+	margin-top: 3px;
+	background: url("../img/header.png") no-repeat top/cover;
+	&__email{
+		margin-top: 60px;
+		margin-bottom: 60px;
+		background: url("../img/email.jpg") no-repeat top/cover;
+		border-radius: 30px;
+		color: #fff;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	&__p{
+		font-size: 26px;
+
+	}
+	&__text{
+
+	}
+	&__input{
+		border-radius: 10px;
+		border:none;
+		margin-top: 10px;
+		
+		font-size: 20px;
+	}
+	&__input1{
+		border-radius: 10px;
+		border:none;
+		text-align: center;
+		margin-top: 10px;
+		font-size: 20px;
+	}
+}
